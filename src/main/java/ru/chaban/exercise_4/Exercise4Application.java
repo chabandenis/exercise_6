@@ -19,7 +19,7 @@ public class Exercise4Application {
 	@PostConstruct
 	public void init() {
 		System.out.println("Start!!!!!!!!!!!!!!!!!!");
-		fromFileToDB.doIt();
+		//fromFileToDB.doIt();
 		System.out.println("--------");
 	}
 

@@ -4,19 +4,15 @@ import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Component;
 import ru.chaban.exercise_4.data.GetRawTest;
 import ru.chaban.exercise_4.data.RawInFile;
-import ru.chaban.exercise_4.domain.Logins;
-import ru.chaban.exercise_4.domain.Users;
 import ru.chaban.exercise_4.save_data.LoginsServiceInteface;
 import ru.chaban.exercise_4.save_data.UsersServiceInterface;
-import ru.chaban.exercise_4.service.Utils;
 
-import java.util.ArrayList;
 import java.util.List;
 
 @Component
 @AllArgsConstructor
 public class FromFileToDB {
-
+/*
     private final GetRawTest getRawFromFile;
     private final ConvertRawToUsersInteface convertRawToUsers;
     private final ConvertRawToLoginsInteface convertRawToLogins;
@@ -50,4 +46,6 @@ public class FromFileToDB {
         loginsServiceInterface.save(logins);
         System.out.println("Сохранили логины");
     }
+
+ */
 }

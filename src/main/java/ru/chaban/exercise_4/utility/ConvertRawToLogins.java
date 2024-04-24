@@ -3,8 +3,6 @@ package ru.chaban.exercise_4.utility;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Component;
 import ru.chaban.exercise_4.data.RawInFile;
-import ru.chaban.exercise_4.domain.Logins;
-import ru.chaban.exercise_4.repository.UsersRepository;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,7 +10,7 @@ import java.util.List;
 @Component
 @AllArgsConstructor
 public class ConvertRawToLogins implements ConvertRawToLoginsInteface {
-
+/*
     private final UsersRepository usersRepository;
 
     @Override
@@ -46,4 +44,6 @@ public class ConvertRawToLogins implements ConvertRawToLoginsInteface {
 
         return logins;
     }
+    
+ */
 }
