@@ -33,10 +33,10 @@ public class Agreement {
     Integer interestRate;
     Integer coefficient;
     String coefficientAction;
-    Integer minimumInterestRate;
-    Integer minimumInterestRateCoefficient;
-    Integer minimumInterestRateCoefficientAction;
-    Integer maximalInterestRate;
-    Integer maximalInterestRateCoefficient;
-    String maximalInterestRateCoefficientAction;
+//    Integer minimumInterestRate;
+//    Integer minimumInterestRateCoefficient;
+//    Integer minimumInterestRateCoefficientAction;
+//    Integer maximalInterestRate;
+//    Integer maximalInterestRateCoefficient;
+//    String maximalInterestRateCoefficientAction;
 }

@@ -30,7 +30,7 @@ public class TppProduct {
     Integer thresholdAmount;
     String requisiteType;
     String interestRateType;
-    LocalDate taxRate;
+    //String taxRate;
     String  reasoneClose;
     String state;
 }
