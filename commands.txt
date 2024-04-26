@@ -1,0 +1,19 @@
+// собрать образ
+docker build -t exercise_6:latest .
+
+
+docker image ls
+docker run my-nginx-image:latest
+docker ps
+docker run -d -p 80:80 my-nginx-image:latest
+docker run -d -p 81:80 my-nginx-image:latest
+docker ps
+docker rm .....
+docker stop ....
+docker rm ....
+docker rm -f ....
+
+FROM openjdk:11-jre-slim
+COPY /target/docker-compose-example.jar /app/app.jar
+EXPOSE 8080
+ENTRYPOINT ["java", "-jar", "/app/app.jar"]

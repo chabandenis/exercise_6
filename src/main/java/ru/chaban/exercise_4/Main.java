@@ -8,12 +8,12 @@ import ru.chaban.exercise_4.utility.FromFileToDB;
 
 @SpringBootApplication
 @AllArgsConstructor
-public class Exercise4Application {
+public class Main {
 
 	private final FromFileToDB fromFileToDB;
 
 	public static void main(String[] args) {
-		SpringApplication.run(Exercise4Application.class, args);
+		SpringApplication.run(Main.class, args);
 	}
 
 	@PostConstruct
