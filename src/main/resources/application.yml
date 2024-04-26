@@ -1,14 +1,14 @@
 spring:
   application:
-    name: exercise_4
+    name: exercise_5
   cloud:
     config:
       enabled: false
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/postgres
+    url: jdbc:postgresql://localhost:5433/postgres
     username: postgres
-    password: 1
+    password: postgres
   jpa:
     hibernate:
       dialect: org.hibernate.dialect.PostgreSQLDialect
