@@ -16,6 +16,6 @@ public interface RetailLoanChangeService {
      * @param request входные параметры
      * @return ответ
      */
-    CorporateSettlementInstanceCreateResponseDto changeArrangementPlanCondition(CorporateSettlementInstanceCreateRequestDto request);
+    CorporateSettlementInstanceCreateResponseDto create(CorporateSettlementInstanceCreateRequestDto request);
 
 }

@@ -1,5 +1,14 @@
 package ru.chaban.exercise_4.request;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import java.util.List;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class CorporateSettlementInstanceCreateRequestDto {
     //Идентификатор экземпляра продукта
     Integer instanceId;
@@ -60,5 +69,7 @@ public class CorporateSettlementInstanceCreateRequestDto {
 
     // Код точки продаж
     String ReferenceCode;
+
+    List<InstanceArrangement> instanceArrangement;
 
 }

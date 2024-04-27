@@ -7,6 +7,8 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class CorporateSettlementInstanceCreateResponseDto {
-    public DataCreate data;
+public class DataCreate {
+    public String instanceId;
+    public String registerId;
+    public String supplementaryAgreementId;
 }
