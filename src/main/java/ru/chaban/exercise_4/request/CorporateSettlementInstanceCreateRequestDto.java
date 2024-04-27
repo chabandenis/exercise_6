@@ -1,6 +1,6 @@
 package ru.chaban.exercise_4.request;
 
-public class RequestDto {
+public class CorporateSettlementInstanceCreateRequestDto {
     //Идентификатор экземпляра продукта
     Integer instanceId;
 

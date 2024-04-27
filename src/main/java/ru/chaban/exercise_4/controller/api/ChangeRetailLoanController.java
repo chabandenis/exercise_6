@@ -5,8 +5,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import ru.chaban.exercise_4.controller.api.ChangeRetailLoanApi;
-import ru.chaban.exercise_4.request.RequestDto;
-import ru.chaban.exercise_4.response.ResponseDto;
+import ru.chaban.exercise_4.request.CorporateSettlementInstanceCreateRequestDto;
+import ru.chaban.exercise_4.response.CorporateSettlementInstanceCreateResponseDto;
 import ru.chaban.exercise_4.service.RetailLoanChangeService;
 
 /**
@@ -22,7 +22,7 @@ public class ChangeRetailLoanController implements ChangeRetailLoanApi {
     private final RetailLoanChangeService retailLoanChangeService;
 
     @Override
-    public ResponseDto changeArrangementPlanCondition(RequestDto request) {
+    public CorporateSettlementInstanceCreateResponseDto changeArrangementPlanCondition(CorporateSettlementInstanceCreateRequestDto request) {
         return ResponseEntity.ok(retailLoanChangeService.changeArrangementPlanCondition(request)).getBody();
     }
 }
