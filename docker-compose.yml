@@ -6,16 +6,16 @@ services:
       dockerfile: Dockerfile
     privileged: true
     ports:
-      - "8080:8080"
+      - 8081:8081
     environment:
       - DB_DRIVER=org.postgresql.Driver
-      - DB_URL=jdbc:postgresql://postgres:5433/db
+      - DB_URL=jdbc:postgresql://db:5433/postgres
       - DB_USERNAME=postgres
       - DB_PASSWORD=postgres
-      - WAIT_FOR=postgres:5432
+      - WAIT_FOR=db:5432
     networks:
       - nw
-  postgres:
+  db:
     image: "postgres"
     ports:
       - "5433:5432"

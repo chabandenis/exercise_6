@@ -16,7 +16,7 @@ FROM openjdk:17-jdk-alpine
 #COPY target/exercise_5-0.0.1-SNAPSHOT.jar exercise_5.jar
 COPY target/exercise_5-0.0.1-SNAPSHOT.jar exercise_5.jar
 
-EXPOSE 8080
+EXPOSE 8081
 #CMD ["ls -l"]
 ENTRYPOINT ["java", "-jar", "exercise_5.jar"]
 
