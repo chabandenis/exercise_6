@@ -1,6 +1,8 @@
 package ru.chaban.exercise_4.service;
 
+import ru.chaban.exercise_4.request.CorporateSettlementAccountCreateRequestDto;
 import ru.chaban.exercise_4.request.CorporateSettlementInstanceCreateRequestDto;
+import ru.chaban.exercise_4.response.CorporateSettlementAccountCreateResponseDto;
 import ru.chaban.exercise_4.response.CorporateSettlementInstanceCreateResponseDto;
 
 /**
@@ -10,12 +12,9 @@ import ru.chaban.exercise_4.response.CorporateSettlementInstanceCreateResponseDt
  */
 public interface RetailLoanChangeService {
 
-    /**
-     * Сохранение актуальных условий планирования для графика платежей экземпляра продукта.
-     *
-     * @param request входные параметры
-     * @return ответ
-     */
+
     CorporateSettlementInstanceCreateResponseDto create(CorporateSettlementInstanceCreateRequestDto request);
+
+    CorporateSettlementAccountCreateResponseDto create(CorporateSettlementAccountCreateRequestDto request);
 
 }
